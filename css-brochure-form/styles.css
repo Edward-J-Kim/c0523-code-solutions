@@ -1,0 +1,43 @@
+h1 {
+  font-size: 20px;
+  text-align: center;
+  color: #ec5c57;
+}
+
+select {
+  background-color: f3f3f3;
+}
+
+p {
+  font-size: 10px;
+}
+
+button {
+  padding: 5px 15px;
+  font-size: 10px;
+  border-radius: 15px;
+  color: white;
+  background-color: #ec5c57;
+  border-color: a6aaa9;
+}
+
+div {
+  text-align: right;
+}
+
+input,
+select {
+  margin: 1.5% 0;
+  border-radius: 5px;
+  color: e5e5e5;
+  line-height: 20px;
+  font-size: 17px;
+  justify-content: left;
+  text-align: left;
+  width: 500px;
+}
+
+body {
+  width: 500px;
+  margin: 0 auto;
+}
