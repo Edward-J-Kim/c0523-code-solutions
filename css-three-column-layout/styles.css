@@ -1,0 +1,45 @@
+body {
+  background-color: #1a96d9;
+}
+
+* {
+  justify-content: center;
+  margin: 3%;
+}
+
+.row {
+  display: flex;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+h2,
+h3 {
+  color: white;
+  text-align: center;
+}
+
+p {
+  text-align: center;
+  font-size: 13px;
+  color: #c6d4dd;
+}
+
+.img {
+  display: flex;
+  width: 40%;
+  height: 60%;
+  background-color: white;
+  border-radius: 700px;
+  margin: auto;
+}
+
+img {
+  width: 50%;
+}
