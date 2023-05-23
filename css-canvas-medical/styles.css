@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: left;
+}
+
+.home {
+  display: flex;
+}
+
+.image {
+  width: 800px;
+  height: 400px;
+  background-size: cover;
+  background-image: url('/css-canvas-medical/images/hero.jpg');
+  position: relative;
+}
+
+.overlay {
+  position: relative;
+  background: linear-gradient(transparent);
+  color: white;
+}
+
+.container3 {
+  color: #6e6e6e;
+}
+
+#button {
+  color: white;
+  background-color: #294463;
+}
+
+.locations {
+  display: flex;
+  margin: 0 auto;
+}
