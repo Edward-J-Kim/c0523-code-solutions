@@ -1,6 +1,6 @@
 const $tabContainer = document.querySelector('.tab-container');
 const $tabs = document.querySelectorAll('.tab');
-const $views = document.querySelectorAll('view');
+const $views = document.querySelectorAll('.view');
 
 $tabContainer.addEventListener('click', handleViewSwap);
 function handleViewSwap(event) {
@@ -15,6 +15,7 @@ function handleViewSwap(event) {
     }
   }
   const viewName = event.target.getAttribute('data-view');
+  console.log($views);
   for (let viewIndex = 0; viewIndex < $views.length; viewIndex++) {
     if ($views[viewIndex].getAttribute('data-view') !== viewName) {
       $views[viewIndex].className = 'view hidden';
