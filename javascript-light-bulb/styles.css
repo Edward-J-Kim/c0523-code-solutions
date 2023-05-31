@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: black;
+}
+
+.container.-bright {
+  background-color: rgb(254, 249, 242);
+}
+
+.bulb {
+  width: 150px;
+  height: 150px;
+  background-color: rgb(38, 38, 38);
+}
+
+.bulb.-power {
+  background-color: rgb(252, 234, 134);
+  box-shadow: 0 4px 30px rgb(254, 240, 137);
+}
