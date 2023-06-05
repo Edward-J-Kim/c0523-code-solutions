@@ -14,8 +14,8 @@ After completing this exercise, you should be able to discuss or answer the foll
 - What is the default time delay if you omit the `delay` parameter from `setTimeout()` or `setInterval()`?
   0
 - What do `setTimeout()` and `setInterval()` return?
-  setTimeout(function, milliseconds ) Executes a function, after waiting a specified number of milliseconds.
-  setInterval(function, milliseconds ) Same as setTimeout(), but repeats the execution of the function continuously.
+  The setTimeout() returns a timeoutID
+  where setInterval(function, milliseconds ) returns an interval ID which uniquely identifies the interval
 
 ## Notes
 
