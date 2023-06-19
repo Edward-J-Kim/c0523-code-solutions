@@ -31,10 +31,11 @@
         author: 'Charles Baudelaire',
         libraryID: 2345,
       };
+
       const {
-        otherTitle = book2.title,
-        otherAuthor = book2.author,
-        otherLibraryID = book2.libraryID,
+        title: otherTitle,
+        author: otherAuthor,
+        libraryID: otherLibraryID,
       } = book2;
       console.log(
         `The title of the book is ${otherTitle}, the author is ${otherAuthor}, and the library id is ${otherLibraryID}.`
