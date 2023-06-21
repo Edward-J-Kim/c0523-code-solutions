@@ -5,12 +5,13 @@
 After completing this exercise, you should be able to discuss or answer the following questions:
 
 - What is React?
-
+  JavaScript library for building user interfaces
 - What is a React component?
-
+  reusable piece of UI that summaries its own logic and rendering
 - How do you mount a React app (root component) to the DOM?
-
+  root.render()
 - What are some other popular frontend frameworks?
+  Angular, Vue.js, Ember.js, Svelte
 
 ## Notes
 
