@@ -9,7 +9,7 @@ After completing this exercise, you should be able to discuss or answer the foll
 - Why is it important for React components to be data-driven?
   allows you to store complex forms in the database so you can reuse them in numerous developer environments.
 - Where in the component code would a list of React components typically be built?
-
+  usually inside the jsx
 - What `Array` method is commonly used to create a list of React components?
   map method
 - Why do components in a list need to have unique keys?
