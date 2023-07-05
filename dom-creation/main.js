@@ -75,7 +75,7 @@ function renderPokemon(pokemon) {
   $columnThird.appendChild($pokemonCard);
 
   const $image = document.createElement('img');
-  $image.setAttribute('src', pokemon.imageUrl); // /images/pikachu.png
+  $image.setAttribute('src', pokemon.imageUrl);
   $pokemonCard.appendChild($image);
 
   const $pokemonCardText = document.createElement('div');
@@ -83,15 +83,15 @@ function renderPokemon(pokemon) {
   $pokemonCard.appendChild($pokemonCardText);
 
   const $name = document.createElement('h2');
-  $name.textContent = pokemon.name; // pikachu
+  $name.textContent = pokemon.name;
   $pokemonCardText.appendChild($name);
 
   const $number = document.createElement('h3');
-  $number.textContent = '#' + pokemon.number; // #025
+  $number.textContent = '#' + pokemon.number;
   $pokemonCard.appendChild($number);
 
   const $description = document.createElement('p');
-  $description.textContent = pokemon.description; // Pikachu that can generate powerful electricity have cheek sacs that are extra soft and super stretchy.
+  $description.textContent = pokemon.description;
   $pokemonCardText.appendChild($description);
 
   return $columnThird;
